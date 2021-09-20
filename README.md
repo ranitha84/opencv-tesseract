@@ -17,7 +17,10 @@
 **Sample image after performing smoothening on the image extracted based on the bounding boxes**
 ![image](https://user-images.githubusercontent.com/13603542/133975926-128c9d64-a306-40a3-a05a-d43b777a1aa3.png)
 
-**Sample of extracted text from the filled form**
+**Contour detection is used for detecting checkbox selection.**
+- If total number of contours identified is greater than 3, then we consider the checkbox as selected
+
+**Sample of extracted text from the filled form after cleaning text**
 
 name
 ====
@@ -26,46 +29,91 @@ Anitha Rajamani
 
 business_name
 =============
-Bank Now York Mallon
+HDFC Bank  Kodambakkam
 
 
 exempt_payee_code
 =================
-121242
+324234
 
 
 exempt_fatca_code
 =================
-I212121 2121212
+76867867867867
 
 
 address
 =======
-No 174 Freemont Steet  Freenont  CA 98754
+142121234  Freemont  texas  new york states applicable  Lets see
 
 
 city_state_zip
 ==============
-California CA 121212
+1343242342 Freemont  texas  new vork states applicable  Lets ses
 
 
 requesters_name_address
 =======================
-No 174 Freemont Street  Freenont CA 98754
+3A2342Z3432423432423A23423423432423423 4435345345345345HSHASHSHS34SHS3S 12121234 Freemont  texas  new york st
 
 
 account_numbers
 ===============
-23897 23847 2387 47 2387 47 25347 82347 237 487 237 4823974
-
-
-social_security_number
-======================
-3  2  4   2  3   2  3  4  8
+sdifiksdikfisdkif589G0458934589384s dfmnkis akdpls apfksdikaisdpfkdkfifu34958093489230985893485 798347 58934579843
 
 
 employee_ein
 ============
-3  4   3  9  8  5  7  3  4
+767867867
+
+
+individual_sole_proprietor
+==========================
+False
+
+
+c_corporation
+=============
+False
+
+
+s_corporation
+=============
+False
+
+
+partnership
+===========
+False
+
+
+trust_estate
+============
+False
+
+
+limited_liability
+=================
+False
+
+
+others
+======
+False
+
+
+other_intstructions
+===================
+tes terterjfbjdkshfjds fhdjshfjsdhfjsdhfjsdhfjsdhfiksdfhiksdfhskdjfhs 
+
+
+limited_liability_instruction
+=============================
+c
+
+
+social_security_number
+======================
+2347678672
 
 

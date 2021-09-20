@@ -1,6 +1,6 @@
 # opencv-tesseract
 
-- fw9_format.png (Sample template with bounding boxes) and fw9_format_1.png (Sample form filled with details) files uploaded to this project were used for training the sample files. 
+- **fw9_format.png** (Sample template with bounding boxes) and **fw9_format_1.png **(Sample form filled with details) files uploaded to this project were used for training the sample files. 
 - Pytesseract and OpenCV were used for extracting text from W9 forms 
 - Code first aligns the filled form
 - Based on the bounding boxes defined, it would fetch the corresponding text images
